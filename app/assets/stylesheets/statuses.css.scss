@@ -6,19 +6,25 @@
 .status {
 	border-bottom: 1px solid #ccc;
 	padding: 5px 0 8px 8px;
+	margin:10px 0 0;
+
+    p{
+	margin: 4px 0;
+    }
+
+   .admin{
+	display:none;
+   }
+ 
 }
+
 .status:hover {
 	background-color:#fafafa;
-}
-
-
-.status p{
-	margin: 4px 0;
-}
-
-.status .admin{
-	display:none;
-}
-.status:hover .admin{
+	   .admin{
 	display: inline;
+    }
+   }
+
+   body{
+	padding-top: 45px;
 }

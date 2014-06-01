@@ -13,6 +13,9 @@
  *= require_tree .
  *= require_self
  */
-body{
-	padding-top: 45px;
-}
+$navbar-default-bg: #312310;
+$light-orange: #ff8c00;
+$navbar-default-color: $light-orange;
+ @import "bootstrap";
+ @import "bootstrap/theme";
+
